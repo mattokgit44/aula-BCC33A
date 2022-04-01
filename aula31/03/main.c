@@ -47,7 +47,7 @@ int main(int argc, char** argv){
 
     v = gerar_vetor_aleatorio(n, n * 100, 0);
 
-    QuickSort(v,0,n-1);
+    HeapSort(v,n-1);
 
     printf("\n");
     #if DEBUG
